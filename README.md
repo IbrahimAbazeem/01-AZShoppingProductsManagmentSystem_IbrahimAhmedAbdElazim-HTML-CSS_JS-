@@ -27,7 +27,7 @@ _Add screenshots here to showcase the UI and functionalities._
 
 1. Clone the repository:
    ```bash
-   git clone    https://github.com/IbrahimAbazeem/01-AZShoppingProductsManagmentSystem_IbrahimAhmedAbdElazim-HTML-CSS_JS-.git
+   git clone  https://github.com/IbrahimAbazeem/01-AZShoppingProductsManagmentSystem_IbrahimAhmedAbdElazim-HTML-CSS_JS-.git
    ```
 
 2. Open `index.html` in your browser.
