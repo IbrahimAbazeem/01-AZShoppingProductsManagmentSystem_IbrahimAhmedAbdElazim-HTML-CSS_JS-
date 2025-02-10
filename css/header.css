@@ -1,0 +1,16 @@
+header{
+  background-color:rgb(42, 40, 40) ;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  gap: 4px;
+  font-size: 1.5rem;
+  color: white;
+  #p1{
+    font:1.4rem bold;
+    
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothes Systeym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./image/bag-shopping-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <h6 id="up"></h6>
+    <!-- header -->
+    <header class="head">
+      <div class="logo">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span style="font-weight: bold; font-size: 3rem ;">AZS</span>
+        <p style="font-size: larger;">Shopping</p>
+        </div>
+      <p id="p1">Product Management System</p>
+      
+    </header>
+    <div class="cruds">
+      <!-- input -->
+      <div class="input">
+        <input type="text" placeholder="Item Name" id="item" />
+        <div class="cruditem">
+          <input onkeyup="getTotal()" type="number" placeholder="price" id="price" />
+          <input onkeyup="getTotal()" type="number" placeholder="Tax" id="Tex" />
+          <input onkeyup="getTotal()" type="number" placeholder="OverCost" id="overcost" />
+          <input onkeyup="getTotal()" type="number" placeholder="Discount" id="discount" />
+          <small id="total"> </small>
+          <input type="number" placeholder="Items Count" id="count" />
+          <input type="text" placeholder="Category" id="Category" />
+          <button id="submit">Create</button>
+        </div>
+      </div>
+      <!-- output -->
+      <div class="output">
+        <div class="serchanddeleteitem">
+          <input onkeyup="searchData(this.value)" type="text" placeholder="Search" id="search" />
+          <div class="btnsearch">
+              <button onclick="getSearchMood(this.id)" id="searchbytitle">Search By Title</button>
+              <button onclick="getSearchMood(this.id)" id="searchbycategory">Search By Category</button>
+          </div>
+          <div id='deleteall'>
+
+          </div>
+        </div>
+      <div>
+        <!-- data -->
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Item</th>
+              <th>price</th>
+              <th> taxes</th>
+              <th>overcost</th>
+              <th> discount</th>
+              <th>total</th>
+              <th>category</th>
+              <th>update</th>
+              <th>delete</th>
+          </tr>
+          </thead>
+          </tr>
+          <tbody id="tbody">
+          
+        
+          </tbody>      
+        </table>
+      </div>
+      <button onclick="location.href='#up'"> up</button>
+      </div>
+      <!-- footer -->
+      <br />
+      <br />
+      <br />
+      <footer class="footer">
+        Designed and developed by
+        <span> Ibrahim Ahmed AddElazim </span>
+        &copy; 2025.
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+
+footer {
+  text-align: center;
+  background-color:rgb(42, 40, 40) ;
+  border-left: rgb(205, 205, 11) solid 0.5rem;
+  border-right: rgb(205, 205, 11) solid 0.5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  padding-block: 1rem;
+  color: white;
+  font-size: 17px;
+  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  & span {
+    color: #ff7790;
+    text-transform: capitalize;
+  }
+}

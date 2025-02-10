@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #474646;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,;
+
+  .cruds{
+    width: 90%;
+    margin: auto;
+    
+  }
+  input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+  }
+
+  input:focus {
+    background: #000;
+    transform: scale(1.1);
+  }
+
+  .cruditem input {
+    width: 20%;
+  }
+  #total {
+    background: rgb(143, 64, 64);
+    padding: 4px 2px;
+    border-radius: 8px;
+  }
+  #total::before{
+    content: ' Total: ' ;
+
+  }
+  button {
+    color: white;
+    font: 16px bold;
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #390053;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #51025f;
+    letter-spacing: 1.5px;
+  }
+  .btnsearch {
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+  }
+  .btnsearch button {
+    justify-content: space-between;
+    width: 30%;
+  }
+  table{
+    background: #1f1f1f;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 12px;
+
+  }
+  table thead{
+    text-transform: uppercase;
+  }
+  th,td{
+    padding: 5px;
+  }
+
+  /* Logo */
+& .fa-bag-shopping{
+  font-size: 5rem;
+ 
+ }
+ .fa-solid{
+   color: rgb(178, 155, 195);
+ }
+ }
+
+ @media (width < 600px) {
+ *{
+  font:12px bold;
+ }
+
+ #deleteall{
+  margin: 10px;
+ }
+}
+
+
+ 
+
+
